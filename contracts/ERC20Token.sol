@@ -42,6 +42,6 @@ contract MyToken is ERC20 {
     }
 
     function getOwner() external view returns (address) {
-        return _owner;
+        return owner;
     }
 }
